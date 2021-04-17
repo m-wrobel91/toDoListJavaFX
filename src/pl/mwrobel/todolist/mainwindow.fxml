@@ -19,9 +19,9 @@
 <BorderPane fx:id="mainBorderPane" fx:controller="pl.mwrobel.todolist.Controller"
             xmlns:fx="http://javafx.com/fxml" >
     <top>
-        <VBox>
-            <MenuBar>
-                <Menu text="File">
+    <VBox>
+        <MenuBar>
+            <Menu text="File">
                     <items>
                         <MenuItem text="New task" onAction="#showNewTaskDialog"/>
                         <SeparatorMenuItem/>
